@@ -1,14 +1,14 @@
-# Can We Generate Images 🌇 with CoT 🧠?
+# Generate Images with CoT 
 
 Official repository for the paper "[Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step](https://arxiv.org/pdf/2501.13926)".
 
-[[📖 Paper](https://arxiv.org/pdf/2501.13926)] [[🤗 HF Checkpoints](https://huggingface.co/ZiyuG/Image-Generation-CoT)] [[🤗 HF Datasets (coming)]()]
+[[Paper](https://arxiv.org/pdf/2501.13926)] [[HF Checkpoints](https://huggingface.co/ZiyuG/Image-Generation-CoT)] 
 
-## 💥 News
-- **[2025.01.23]** We release the code and ckpts for autoregressive image generation with test-time scaling (ORM, PARM) and DPO 🚀
-- **[2025.01.23]** We release the [arXiv paper](https://arxiv.org/pdf/2501.13926) 🚀
+## News
+- **[2025.01.23]** We release the code and ckpts for autoregressive image generation with test-time scaling (ORM, PARM) and DPO 
+- **[2025.01.23]** We release the [arXiv paper](https://arxiv.org/pdf/2501.13926) 
 
-## 👀 Reasoning in Image Generation
+## Reasoning in Image Generation
 
 Chain-of-Thought (CoT) reasoning has been extensively explored by LLMs and LMMs in mathematics. However, it still remains an open question whether such strategies can be applied to **verifying and reinforcing image generation scenarios**. In this project, we provide ***the first*** comprehensive investigation of the potential of CoT reasoning to enhance autoregressive image generation.
 
@@ -152,26 +152,7 @@ torchrun --nnodes=1 --nproc_per_node=8 --node_rank=0 --master_port=12475 main.py
 --dpo_model dpo_iter_parm_gudie
 ```
 
-## :white_check_mark: Citation
 
-If you find this project useful for your research or applications, please kindly cite using this BibTeX:
-
-```latex
-@misc{guo2025generateimagescotlets,
-      title={Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step}, 
-      author={Ziyu Guo and Renrui Zhang and Chengzhuo Tong and Zhizheng Zhao and Peng Gao and Hongsheng Li and Pheng-Ann Heng},
-      year={2025},
-      eprint={2501.13926},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.13926}, 
-}
-```
-
-
-## 🧠 Related Work
-
-Explore our additional research on **CoT Reasoning** and **3D Vision**:
 
 - **[MathVerse]** [MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?](https://mathverse-cuhk.github.io/)
 - **[MAVIS]** [MAVIS: Mathematical Visual Instruction Tuning with an Automatic Data Engine](https://arxiv.org/pdf/2407.08739)
