@@ -1,8 +1,3 @@
-# Generate Images with CoT 
-
-Official repository for the paper "[Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step](https://arxiv.org/pdf/2501.13926)".
-
-[[Paper](https://arxiv.org/pdf/2501.13926)] [[HF Checkpoints](https://huggingface.co/ZiyuG/Image-Generation-CoT)] 
 
  
 
